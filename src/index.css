@@ -1,0 +1,62 @@
+#root {
+  --title-font-size: 3rem;
+  --subtitle-font-size: 2rem;
+  --paragraph-font-size: 1.5rem;
+  --highlighted-font-weight: 600;
+  --semibold-font-weight: 500;
+  --regular-font-weight: 400;
+  --back-color: #191b1f;
+  --form-background: #0d111c;
+  --input-background: #131a2a;
+  --input-alert: #98a1c0;
+  --basic-grey: #3a4155;
+  --alt-grey: #a3a4a5;
+  --button-active: #1c2c51;
+  --button-inactive: #293249;
+  --brand-yellow: #ff8000;
+  --brand-pink: #9850c0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--back-color);
+}
+
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+@import url(./components/App/App.css);
+@import url(./components/Header/header.css);
+@import url(./components/Footer/footer.css);
+@import url(./components/Main/main.css);
+@import url(./components/Landing/landing.css);
+@import url(./components/Community/community.css);
+@import url(./components/Prices/prices.css);
+@import url(./components/Exchange/exchange.css);
+@import url(./components/TradeForm/tradeForm.css);
+@import url(./components/Dashboard/dashboard.css);
+@import url(./components/UserData/userData.css);
+@import url(./components/UserDeals/userDeals.css);
+@import url(./components/UserStats/userStats.css);
+@import url(./components/UserWallet/userWallet.css);
+
+@import url(./components/PageNotFound/pageNotFound.css);
+
+@import url(./components/Login/login.css);
+@import url(./components/Signup/signup.css);
+@import url(./components/Profile/profile.css);
+
+@import url(./components/Navigation/navigation.css);
+@import url(./components/Tickers/tickers.css);
+@import url(./components/Form/form.css);
+@import url(./components/PopupMenu/popupMenu.css);
+@import url(./components/CurrencyPopup/currencyPopup.css);
+@import url(./components/InfoPopup/infoPopup.css);
+
+@import url(./components/Loader/loader.css);
+@import url(./utils/link-effect.css);
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}

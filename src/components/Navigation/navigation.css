@@ -1,0 +1,45 @@
+.navBar {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
+.navBar_small {
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.navBar_orange {
+  gap: 1rem;
+  font-size: 1rem;
+  justify-self: right;
+  color: var(--brand-yellow);
+}
+
+.navBar_vertical {
+  gap: 1rem;
+  font-size: 2rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+.navBar__link{
+  text-decoration: none;
+  color: inherit;
+  transition: opacity .3s ease-in-out;
+}
+
+.navBar__link_active{
+  font-weight: var(--semibold-font-weight);
+  text-decoration: underline;
+}
+
+.navBar li{
+  opacity: 1;
+  transition: opacity .5s ease-in-out;
+}
+

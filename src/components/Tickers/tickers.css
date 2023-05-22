@@ -1,0 +1,66 @@
+.tickers__container {
+  min-height: 10rem;
+  min-width: 50%;
+  display: flex;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--alt-grey);
+  background-image: url(../../images/ecosystem.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--alt-grey);
+  position: relative;
+}
+
+.tickers__container::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  border-radius: 1rem;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.tickers__table {
+  border-collapse: separate;
+  border-spacing: 1rem;
+  z-index: 1;
+}
+
+.tickers__line {
+  font-size: 1rem;
+}
+
+.tickers__data {
+  overflow: hidden;
+  text-align: center;
+}
+
+.tickers__data_left {
+  text-align: left;
+}
+
+.tickers__data_red {
+  color: red;
+}
+.tickers__data_green {
+  color: green;
+}
+
+.tickers__link {
+  color: var(--brand-yellow);
+  text-decoration: none;
+}
+
+.tickers__link:hover {
+  text-decoration: underline;
+  font-weight: var(--semibold-font-weight);
+}
+
+@media all and (max-width: 768px) {
+  .tickers__container {
+    padding: 1rem;
+  }
+}

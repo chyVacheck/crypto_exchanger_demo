@@ -1,0 +1,78 @@
+.popupMenu {
+  margin: 0;
+  visibility: hidden;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: visibility 0.5s, opacity 0.5s ease-in-out;
+  opacity: 0;
+  z-index: 10;
+}
+
+.popupMenu__container {
+  padding: 4rem 1rem;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-weight: var(--semibold-font-weight);
+  font-size: var(--subtitle-font-size);
+  border: 1px solid var(--alt-grey);
+  background: var(--form-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.popupMenu_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupMenu__close-button {
+  margin: 0;
+  padding: 0;
+  width: 2rem;
+  object-fit: cover;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.popupMenu__account {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-top: 1px solid var(--alt-grey);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.popupMenu__title {
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  font-size: var(--subtitle-font-size);
+  color: var(--brand-yellow);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.popupMenu__item {
+  margin: 0;
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--brand-yellow);
+  text-decoration: none;
+}

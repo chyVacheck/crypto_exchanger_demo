@@ -1,0 +1,84 @@
+.prices {
+  width: 100%;
+  padding: 0 4rem;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  color: white;
+  text-align: right;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.prices__container {
+  display: flex;
+  flex: auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  border-radius: 2rem;
+  border: 1px solid var(--alt-grey);
+  background-image: url(../../images/ecosystem.jpg);
+  background-repeat: round;
+  background-size: contain;
+  position: relative;
+  overflow: auto;
+}
+
+.prices__table {
+  width: 100%;
+  border-collapse: collapse;
+  z-index: 1;
+}
+
+.prices__container::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  border-radius: 2rem;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+.prices__line {
+  font-size: 1rem;
+}
+
+.prices__data {
+  overflow: hidden;
+  text-align: center;
+}
+
+.prices__data_left {
+  text-align: left;
+}
+.prices__data_right {
+  text-align: right;
+}
+.prices__data_red {
+  color: red;
+}
+.prices__data_green {
+  color: green;
+}
+.prices__link {
+  color: var(--brand-yellow);
+  text-decoration: none;
+}
+
+.prices__link:hover {
+  text-decoration: underline;
+  font-weight: var(--semibold-font-weight);
+}
+
+@media screen and (max-width: 768px) {
+  .prices {
+    padding: 0 1rem;
+  }
+
+  .prices__container {
+    padding: 1rem;
+  }
+}
+
