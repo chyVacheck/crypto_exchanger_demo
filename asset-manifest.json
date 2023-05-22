@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crypto_exchanger_demo/static/css/main.e198f942.css",
-    "main.js": "/crypto_exchanger_demo/static/js/main.34e5f209.js",
+    "main.js": "/crypto_exchanger_demo/static/js/main.f7f1a15a.js",
     "static/js/787.113b6bb1.chunk.js": "/crypto_exchanger_demo/static/js/787.113b6bb1.chunk.js",
     "static/media/Inter-Medium.woff": "/crypto_exchanger_demo/static/media/Inter-Medium.44e343ff76a98508d309.woff",
     "static/media/ecosystem.jpg": "/crypto_exchanger_demo/static/media/ecosystem.9292af2d9826e57e2fbf.jpg",
@@ -27,11 +27,11 @@
     "static/media/closeIcon.svg": "/crypto_exchanger_demo/static/media/closeIcon.53225a0040ede19319743458036d2150.svg",
     "static/media/search.svg": "/crypto_exchanger_demo/static/media/search.2f68ccda21d1e4407c50.svg",
     "main.e198f942.css.map": "/crypto_exchanger_demo/static/css/main.e198f942.css.map",
-    "main.34e5f209.js.map": "/crypto_exchanger_demo/static/js/main.34e5f209.js.map",
+    "main.f7f1a15a.js.map": "/crypto_exchanger_demo/static/js/main.f7f1a15a.js.map",
     "787.113b6bb1.chunk.js.map": "/crypto_exchanger_demo/static/js/787.113b6bb1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e198f942.css",
-    "static/js/main.34e5f209.js"
+    "static/js/main.f7f1a15a.js"
   ]
 }
